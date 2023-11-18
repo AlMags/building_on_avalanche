@@ -1,39 +1,43 @@
 # Project Title
 
-Simple overview of use/purpose.
+Building on Avalanche - ETH + AVAX - Assessment
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+In this assessment we were tasked to create a smart contract, deploy it in the blockchain, and 
+track its transactions in the SnowTrace website.
 
 ## Getting Started
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+* Clone this repository into your Remix IDE
+  * Do note that you need a working MetaMask wallet
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
+* Compile the contract
+* Deploy the compiler:
+  *  If you want to use your Metamask wallet: Inject Provider - Metamask
+  *  If not, you may use any of the other VM environments available
+* After deployment you may now be able to transact with the wallet
+* In order to track your transactions:
+  *  Go to your MetaMask extension: Settings -> Networks -> [the network you are currently using]
+  *  With the information of your network now available to you copy the link from the "Block explorer URL"
+        section and paste it in your search engine
+  *  Now in that website, copy your deployed contract address from your Remix IDE Deployed Contracts
+        and paste it into the search engine of the website you are currently in
 
 ## Help
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+* Please make sure that you enough tokens to transact with
+* You are tracking the correct contract
+* With your transactions: make sure that both accounts can be transacted with
 
 ## Authors
 
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+Alkier Magallanes 
+magallanesalkier@gmail.com
 
 
 ## License
